@@ -29,7 +29,7 @@ object Pascal {
      * @param row - Row Index
      * @return
      */
-    def recurs(acc : Int, col: Int, row: Int) : Int = {
+    def recurs(acc: Int, col: Int, row: Int) : Int = {
       //edge
       if (col == 0 || col == row) acc + 1
       //Tail Recursion storing resultant in accumulator
