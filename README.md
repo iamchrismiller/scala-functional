@@ -18,6 +18,9 @@ All exercises are tested using [scalatest](http://www.scalatest.org/) and compil
 - **Balanced Parenthesis** (Tail-Recursion)
   - In the theory of formal languages of computer science, mathematics, and linguistics, the Dyck language is the language consisting of balanced strings of parentheses ( and ). It is important in the parsing of expressions that must have a correctly nested sequence of parentheses, such as arithmetic or algebraic expressions. It is named after the mathematician Walther von Dyck.
 
+- **Coin Change** (Tail-Recursion)
+  - Coin Change is the problem of finding the number of ways of making changes for a particular amount of cents, n, using a given set of denominations. It is a general case of Integer Partition.
+
 - More to Come...
 
 ## License 
