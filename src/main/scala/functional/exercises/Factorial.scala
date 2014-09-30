@@ -2,6 +2,8 @@ package functional.exercises
 
 object Factorial {
 
+  import scala.annotation.tailrec
+
   /**
    * Simple Recursive Factorial
    * @param num - Int Of Number to calculate
@@ -21,6 +23,7 @@ object Factorial {
    */
   def calculateTail(num : Int) : Long = {
     //inner recursive "loop"
+    @tailrec
     def recurs(acc : Long, num : Int): Long =
       //Return the Accumulator
       if (num <= 0) acc
