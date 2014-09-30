@@ -4,7 +4,7 @@ object Factorial {
 
   /**
    * Simple Recursive Factorial
-   * @param num
+   * @param num - Int Of Number to calculate
    * @return
    */
   def calculate_simple(num : Int) : Long = {
