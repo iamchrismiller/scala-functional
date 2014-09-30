@@ -8,11 +8,11 @@ object Pascal {
    * @param row - Row Index
    * @return
    */
-  def calculate_simple(col: Int, row: Int): Int = {
+  def calculateSimple(col: Int, row: Int): Int = {
     //edge
     if (col == 0 || col == row) 1
     //recurs and use simple arithmetic
-    else calculate_simple(col-1, row-1) + calculate_simple(col, row-1)
+    else calculateSimple(col-1, row-1) + calculateSimple(col, row-1)
   }
 
   /**
@@ -21,7 +21,7 @@ object Pascal {
    * @param row - Triangle Row
    * @return
    */
-  def calculate_tail(col: Int, row: Int): Int = {
+  def calculateTail(col: Int, row: Int): Int = {
     /**
      * Calculate Pascal Value Using Recursive Accumulator
      * @param acc - Accumulator Register

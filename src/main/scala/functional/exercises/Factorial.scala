@@ -7,11 +7,11 @@ object Factorial {
    * @param num - Int Of Number to calculate
    * @return
    */
-  def calculate_simple(num : Int) : Long = {
+  def calculateSimple(num : Int) : Long = {
     //bail on non-positive numbers
     if (num <= 0) 1
     //recurs
-    else num * calculate_simple(num - 1)
+    else num * calculateSimple(num - 1)
   }
 
   /**
@@ -19,7 +19,7 @@ object Factorial {
    * @param num - Int Of Number to calculate
    * @return
    */
-  def calculate_tail(num : Int) : Long = {
+  def calculateTail(num : Int) : Long = {
     //inner recursive "loop"
     def recurs(acc : Long, num : Int): Long =
       //Return the Accumulator
