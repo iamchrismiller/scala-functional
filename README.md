@@ -12,8 +12,11 @@ All exercises are tested using [scalatest](http://www.scalatest.org/) and compil
 - **Factorials** (Simple / Tail-Recursion)
   - In mathematics, the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n. For example, The value of 0! is 1, according to the convention for an empty product.
 
-- **Pascal Triangle** (Simple / Tail-Recursion)
+- **Pascal's Triangle** (Simple / Tail-Recursion)
   - In mathematics, Pascal's triangle is a triangular array of the binomial coefficients. It is named after the French mathematician Blaise Pascal in much of the Western world
+
+- **Balanced Parenthesis** (Tail-Recursion)
+  - In the theory of formal languages of computer science, mathematics, and linguistics, the Dyck language is the language consisting of balanced strings of parentheses ( and ). It is important in the parsing of expressions that must have a correctly nested sequence of parentheses, such as arithmetic or algebraic expressions. It is named after the mathematician Walther von Dyck.
 
 - More to Come...
 
