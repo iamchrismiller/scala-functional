@@ -3,6 +3,8 @@ package functional.exercises
 
 object BalancedParenthesis {
 
+  import scala.annotation.tailrec
+
   /**
    * Is The List Of Parenthesis Balanced?
    * @param chars - Immutable Linked List
@@ -15,6 +17,7 @@ object BalancedParenthesis {
      * @param open - Count of open parenthesis
      * @return
      */
+    @tailrec
     def recurs(chars: List[Char], open: Int): Boolean = {
       //too many closing ) before open (
       if (open < 0) false
