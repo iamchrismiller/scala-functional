@@ -17,9 +17,7 @@ All exercises are tested using [scalatest](http://www.scalatest.org/) and execut
 
 - More to Come...
 
-## License
-
-[MIT](http://opensource.org/licenses/mit-license.php)
+## License [MIT](http://opensource.org/licenses/mit-license.php)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
