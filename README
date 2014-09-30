@@ -5,7 +5,7 @@ Scala Functional Programming Learnings and exercises roughly based on Coursera C
 
 As I learn functional principles in Scala I will compile a list of exercises completed
 
-All exercises are tested using [scalatest](http://www.scalatest.org/) and executed with [sbt](http://www.scala-sbt.org/)
+All exercises are tested using [scalatest](http://www.scalatest.org/) and compiled/executed with [sbt](http://www.scala-sbt.org/)
 
 ## Exercises
 
