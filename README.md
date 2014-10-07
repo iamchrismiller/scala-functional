@@ -21,6 +21,15 @@ All exercises are tested using [scalatest](http://www.scalatest.org/) and compil
 - **Coin Change** (Tail-Recursion)
   - Coin Change is the problem of finding the number of ways of making changes for a particular amount of cents, n, using a given set of denominations. It is a general case of Integer Partition.
 
+- **Sum** (Tail-Recursion)
+  - Summation is the operation of adding a sequence of numbers; the result is their sum or total. Here we abstract the summation function that is applied to the lower and upper bounds allowing a custom summation method to be used
+
+- **Product**
+  - In mathematics, a product is the result of multiplying, or an expression that identifies factors to be multiplied.
+
+- **Rational Number Operations**
+  - In mathematics, a rational number is any number that can be expressed as the quotient or fraction p/q of two integers, with the denominator q not equal to zero.[1] Since q may be equal to 1, every integer is a rational number.
+
 - More to Come...
 
 ## License 
